@@ -1,2 +1,2 @@
-# local_manifest
-Local Manifest for Cactus
+# Local Manifest
+Local Manifest containing trees adapted for Evolution X for cactus
