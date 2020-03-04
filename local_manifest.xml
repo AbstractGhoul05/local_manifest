@@ -2,12 +2,12 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/xiaomi/cactus" name="Bit145/android_device_xiaomi_cactus" />
-  <project path="device/xiaomi/mt6765-common" name="Bit145/android_device_xiaomi_mt6765-common"/>
-  <project path="kernel/xiaomi/mt6765" name="xiaomi-mt6765/android_kernel_xiaomi_mt6765"/>
-  <project path="vendor/xiaomi" name="xiaomi-mt6765/proprietary_vendor_xiaomi" />
+  <project path="device/xiaomi/cactus" name="Bit145/android_device_xiaomi_cactus" remote="github"/>
+  <project path="device/xiaomi/mt6765-common" name="Bit145/android_device_xiaomi_mt6765-common" remote="github"/>
+  <project path="kernel/xiaomi/mt6765" name="xiaomi-mt6765/android_kernel_xiaomi_mt6765" remote="github"/>
+  <project path="vendor/xiaomi" name="xiaomi-mt6765/proprietary_vendor_xiaomi" remote="github"/>
   
   <!--Dependencies-->
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github"/>
   
 </manifest>  
